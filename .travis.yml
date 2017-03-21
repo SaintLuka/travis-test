@@ -6,5 +6,6 @@ install:
     - pip install -r requirements.txt
 
 script: 
-    - find . -iname "*.py" |xargs pylint 
-    - pylint shicode.py
+    #- find . -iname "*.py" |xargs pylint 
+    - pylint shitcode.py
+    - pylint code.py
